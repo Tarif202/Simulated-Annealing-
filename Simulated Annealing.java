@@ -29,9 +29,7 @@ public class MultiClass {
     }
 
     public static double TSP(int numCities, double[][] distanceMatrix, int iterations) {
-        // graph shit
-        iterationFitnessList.clear();
-        bestFitnessList.clear();
+      
         
         ArrayList<Integer> updatedTour = new ArrayList<>();
         ArrayList<Integer> current = new ArrayList<>();
